@@ -2,20 +2,24 @@
 using namespace std;
 
 int main() {
-    const int n = 3;
-
-    int A[n][n] = {
+     int n = 3;
+    int a[n][n] = {
         {1, 2, 3},
         {4, 5, 6},
         {7, 8, 9}
     };
-
-    int diagonalSum = 0;
     
-
-    for (int i = 0; i < n; i++) {
-        diagonalSum += A[i][i];
+    int diagonalSum = 0;
+     for (int i = 0; i < n; i++) {
+        diagonalSum += a[i][i];
         
+    }
+    
+    for(int i = 0;i<3;i++){
+        for(int j = 0; j<3;j++){
+            cout << a[i][j] << " ";
+        }
+        cout << endl;
     }
 
     cout << "Diagonal Sum: " << diagonalSum << endl;
