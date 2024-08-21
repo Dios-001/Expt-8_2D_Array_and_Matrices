@@ -10,16 +10,16 @@ int main() {
         {7, 8, 9}
     };
 
-    int primaryDiagonalSum = 0;
-    int secondaryDiagonalSum = 0;
+    int diagonalSum = 0;
+    
 
     for (int i = 0; i < n; i++) {
-        primaryDiagonalSum += A[i][i];
-        secondaryDiagonalSum += A[i][n - i - 1];
+        diagonalSum += A[i][i];
+        
     }
 
-    cout << "Primary Diagonal Sum: " << primaryDiagonalSum << endl;
-    cout << "Secondary Diagonal Sum: " << secondaryDiagonalSum << endl;
+    cout << "Diagonal Sum: " << diagonalSum << endl;
+   
 
     return 0;
 }
