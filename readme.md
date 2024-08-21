@@ -15,7 +15,7 @@ This repository contains C++ programs for various matrix operations, including u
    - [Logic Explanation](#logic-explanation-4)
 6. [Program 5: Finding Transpose of a Square Matrix](#program-5-finding-transpose-of-a-square-matrix)
    - [Logic Explanation](#logic-explanation-5)
-7. [Compilation and Execution](#compilation-and-execution)
+
 
 ## Introduction
 
@@ -75,14 +75,3 @@ This program finds the transpose of a square matrix. The logic involves:
 3. **Transpose Calculation**: The transpose is calculated by swapping rows with columns.
 4. **Output the Result**: The transposed matrix is displayed to the user.
 
-## Compilation and Execution
-
-To compile and run these programs, follow these steps:
-
-1. **Compilation**: Use a C++ compiler (e.g., `g++`) to compile the programs.
-   ```bash
-   g++ -o matrix_input matrix_input.cpp
-   g++ -o matrix_sum matrix_sum.cpp
-   g++ -o matrix_multiply matrix_multiply.cpp
-   g++ -o diagonal_addition diagonal_addition.cpp
-   g++ -o transpose_matrix transpose_matrix.cpp
