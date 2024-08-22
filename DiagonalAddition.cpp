@@ -8,7 +8,11 @@ int main() {
         {4, 5, 6},
         {7, 8, 9}
     };
-    
+
+if(n != n){
+     cout << "addition not possible" << endl;
+}
+     
     int diagonalSum = 0;
      for (int i = 0; i < n; i++) {
         diagonalSum += a[i][i];
