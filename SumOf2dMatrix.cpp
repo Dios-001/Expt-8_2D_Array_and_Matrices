@@ -17,6 +17,8 @@ int main() {
         }
         std::cout << std::endl;
     }
-
+/* output: 
+    7 7 7 
+    7 7 7 */
     return 0;
 }
