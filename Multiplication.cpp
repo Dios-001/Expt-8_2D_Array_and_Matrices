@@ -30,3 +30,7 @@ int main() {
 
     return 0;
 }
+
+/* output: 
+58 64 
+139 154 */
